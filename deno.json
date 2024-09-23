@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@bufbuild/protobuf": "npm:@bufbuild/protobuf@2.1.0"
+  }
+}
