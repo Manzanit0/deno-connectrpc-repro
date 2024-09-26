@@ -2,24 +2,35 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@bufbuild/protobuf@2.1.0": "npm:@bufbuild/protobuf@2.1.0",
+      "npm:@bufbuild/protobuf@1.10.0": "npm:@bufbuild/protobuf@1.10.0",
       "npm:@connectrpc/connect": "npm:@connectrpc/connect@1.5.0_@bufbuild+protobuf@1.10.0",
-      "npm:@connectrpc/connect-web": "npm:@connectrpc/connect-web@1.5.0_@bufbuild+protobuf@1.10.0_@connectrpc+connect@1.5.0__@bufbuild+protobuf@1.10.0"
+      "npm:@connectrpc/connect-web": "npm:@connectrpc/connect-web@1.5.0_@bufbuild+protobuf@1.10.0_@connectrpc+connect@1.5.0__@bufbuild+protobuf@1.10.0",
+      "npm:@connectrpc/connect-web@1.4.0": "npm:@connectrpc/connect-web@1.4.0_@bufbuild+protobuf@1.10.0_@connectrpc+connect@1.4.0__@bufbuild+protobuf@1.10.0",
+      "npm:@connectrpc/connect@1.4.0": "npm:@connectrpc/connect@1.4.0_@bufbuild+protobuf@1.10.0"
     },
     "npm": {
       "@bufbuild/protobuf@1.10.0": {
         "integrity": "sha512-QDdVFLoN93Zjg36NoQPZfsVH9tZew7wKDKyV5qRdj8ntT4wQCOradQjRaTdwMhWUYsgKsvCINKKm87FdEk96Ag==",
         "dependencies": {}
       },
-      "@bufbuild/protobuf@2.1.0": {
-        "integrity": "sha512-+2Mx67Y3skJ4NCD/qNSdBJNWtu6x6Qr53jeNg+QcwiL6mt0wK+3jwHH2x1p7xaYH6Ve2JKOVn0OxU35WsmqI9A==",
-        "dependencies": {}
+      "@connectrpc/connect-web@1.4.0_@bufbuild+protobuf@1.10.0_@connectrpc+connect@1.4.0__@bufbuild+protobuf@1.10.0": {
+        "integrity": "sha512-13aO4psFbbm7rdOFGV0De2Za64DY/acMspgloDlcOKzLPPs0yZkhp1OOzAQeiAIr7BM/VOHIA3p8mF0inxCYTA==",
+        "dependencies": {
+          "@bufbuild/protobuf": "@bufbuild/protobuf@1.10.0",
+          "@connectrpc/connect": "@connectrpc/connect@1.4.0_@bufbuild+protobuf@1.10.0"
+        }
       },
       "@connectrpc/connect-web@1.5.0_@bufbuild+protobuf@1.10.0_@connectrpc+connect@1.5.0__@bufbuild+protobuf@1.10.0": {
         "integrity": "sha512-xjiiQ932Kibddaka18fGZ6yQL7xjXuLcYFYh/cU+q1WWEIrFPkZfViG/Ee6yrZbrlZkjcBuDibng+q7baTndfg==",
         "dependencies": {
           "@bufbuild/protobuf": "@bufbuild/protobuf@1.10.0",
           "@connectrpc/connect": "@connectrpc/connect@1.5.0_@bufbuild+protobuf@1.10.0"
+        }
+      },
+      "@connectrpc/connect@1.4.0_@bufbuild+protobuf@1.10.0": {
+        "integrity": "sha512-vZeOkKaAjyV4+RH3+rJZIfDFJAfr+7fyYr6sLDKbYX3uuTVszhFe9/YKf5DNqrDb5cKdKVlYkGn6DTDqMitAnA==",
+        "dependencies": {
+          "@bufbuild/protobuf": "@bufbuild/protobuf@1.10.0"
         }
       },
       "@connectrpc/connect@1.5.0_@bufbuild+protobuf@1.10.0": {
@@ -33,7 +44,9 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "npm:@bufbuild/protobuf@2.1.0"
+      "npm:@bufbuild/protobuf@1.10.0",
+      "npm:@connectrpc/connect-web@1.4.0",
+      "npm:@connectrpc/connect@1.4.0"
     ]
   }
 }

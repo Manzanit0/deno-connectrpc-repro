@@ -1,5 +1,8 @@
 ## System info
 
+> [!IMPORTANT]  
+> The below errors were fixed by pinning the versions of the `@connect/*` libraries to v1.x
+
 ```sh
 $ buf --version
 1.41.0

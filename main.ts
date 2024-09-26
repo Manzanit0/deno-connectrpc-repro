@@ -1,5 +1,5 @@
-import { createPromiseClient } from "npm:@connectrpc/connect";
-import { createConnectTransport } from "npm:@connectrpc/connect-web";
+import { createPromiseClient } from "@connectrpc/connect";
+import { createConnectTransport } from "@connectrpc/connect-web";
 import { ElizaService } from "./api/gen/es/greet_connect.ts";
 
 function greet(name: string): string {

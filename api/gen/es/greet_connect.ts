@@ -3,8 +3,8 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type { SayRequest, SayResponse } from "./greet_pb.ts";
-import type { MethodKind } from "@bufbuild/protobuf";
+import { SayRequest, SayResponse } from "./greet_pb.ts";
+import { MethodKind } from "@bufbuild/protobuf";
 
 /**
  * @generated from service connectrpc.eliza.v1.ElizaService
